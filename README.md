@@ -2,7 +2,7 @@
 
 Welcome to my personal **React Portfolio Website** — a dynamic and modern online presence built to showcase my skills, projects, and contact information. The site features smooth and engaging animations powered by **GSAP (GreenSock Animation Platform)**, giving visitors a visually appealing and interactive experience.
 
-🔗 **Live Demo:** https://anik1portfolio.netlify.app/
+🔗 **Live Demo:** https://anik1portfolio.netlify.app
 
 ---
 
