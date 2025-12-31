@@ -1,0 +1,92 @@
+#home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.leftHome {
+    width: 50%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightHome {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightHome img {
+
+    width: 60%;
+    height: auto;
+    filter: drop-shadow(2px 2px 20px rgb(6, 125, 158));
+
+
+}
+
+.leftHome .homedetails {
+    font-size: 2vmax;
+    margin-left: 2em;
+}
+
+.homedetails .line1 {
+    font-size: 1em;
+
+}
+
+.homedetails .line2 {
+    font-size: 2.2em;
+    background: linear-gradient(to right, rgb(66, 180, 205), white);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.homedetails .line3 {
+    font-size: 1em;
+}
+
+.homedetails button {
+    padding: 10px 30px;
+    color: black;
+    background-color: rgb(66, 180, 205);
+    border-radius: 1.5em;
+    border: none;
+    border: 2px solid rgb(66, 180, 205);
+    margin-top: 20px;
+    font-size: 0.5em;
+
+}
+
+.homedetails button:hover {
+    background-color: transparent;
+    color: rgb(66, 180, 205);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 750px) {
+    #home {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .leftHome,
+    .rightHome {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .rightHome {
+        align-items: end;
+    }
+}

@@ -1,0 +1,39 @@
+#projects {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.slider {
+  width: 90%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  gap: 30px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 20px;
+}
+
+h1.overview {
+  font-size: 3vmax;
+  background: linear-gradient(to right, rgb(198, 42, 96), white);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+
+  h1.overview {
+    text-align: center;
+  }
+}
